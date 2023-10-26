@@ -1,5 +1,4 @@
-<h1 style="text-align:center;">ECEN 758</h1>
-<h1 style="text-align:center;">Project</h1>
+<h1 style="text-align:center;">ECEN 758 Project</h1>
 
 ## Dataset
 Fashion MNIST
@@ -10,31 +9,38 @@ Fashion MNIST
 - Num Training Samples = 60000 (5000 Val?)
 - Num Testing Samples = 10000
 
-## Method
+## Methods
 ### Augmentation
-- Horizontal Flip
-- Vertical Flip
-- Rotation
+(Can be attempted later if best model is Overfitting)
+- Auto Augmentation
+- Handpicked (Random Horizontal Flip, Random Vertical Flip, Random Rotation, Random Resized Crop)
 ### Feature Extraction
 - Flatten
-- Traditional Feature extraction Techniques (Need to pick a few)
-- CNN based Feature Extractors (VGG, ResNet)
-- Transformer based Feature Extractors (Vit, Mvit)
+- Traditional Feature extraction Techniques (Need to pick a one or two)
+- ResNet (CNN based Feature Extractors) 
+- Vit (Transformer based Feature Extractors) 
 ### Dimensionality Reduction
 - Chi Square Test
 - Anova Test
 - PCA
 - SVD
-- AutoEncoders
 ### Models
+- Naive Bayes
+- Nearest Neighbor
+- Decision Trees
+- Linear Regression
 - Logistic Regression
 - SVM
-- Naive Bayes
-- Decision Trees
 - Dense Perceptron Layers
 - Transformer
-### Optimizers
-- SGD
-- Adam
 ### Loss Functions
 - Cross Entropy
+- Is there a better loss function? Can we add auxilary losses maybe?
+### Explainability
+- Grad-CAM
+## Implement SOTA
+If we have time
+
+## Comparision
+- Write Submission Report
+- Website/Blog
