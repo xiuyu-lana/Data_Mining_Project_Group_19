@@ -9,7 +9,9 @@ Fashion MNIST
 - Num Training Samples = 60000 (5000 Val?)
 - Num Testing Samples = 10000
 
-## Methods
+## Method
+## EDA
+- Few plots about data distribution
 ### Augmentation
 (Can be attempted later if best model is Overfitting)
 - Auto Augmentation
