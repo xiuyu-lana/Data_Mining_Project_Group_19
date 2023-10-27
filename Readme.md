@@ -1,26 +1,26 @@
 <h1 style="text-align:center;">ECEN 758 Project</h1>
 
-## Dataset
-Fashion MNIST
-
-## Description
+## Dataset Description
+- Name = Fashion MNIST
 - Image Size = 1x28x28
 - Num Classes = 10
-- Num Training Samples = 60000 (5000 Val?)
+- Num Training Samples = 55000
+- Num Val Samples = 5000
 - Num Testing Samples = 10000
 
+## Feature Extraction
+1. Num Flatten Features = 784
+1. TODO: Handcrafted Features (HOG, SIFT, etc)
+1. Num Resnet18 Features = 1000
+1. Num Vit_b_16 Features = 1000
+
 ## Method
-## EDA
+### EDA
 - Few plots about data distribution
 ### Augmentation
 (Can be attempted later if best model is Overfitting)
 - Auto Augmentation
 - Handpicked (Random Horizontal Flip, Random Vertical Flip, Random Rotation, Random Resized Crop)
-### Feature Extraction
-- Flatten
-- Traditional Feature extraction Techniques (Need to pick a one or two)
-- ResNet (CNN based Feature Extractors) 
-- Vit (Transformer based Feature Extractors) 
 ### Dimensionality Reduction
 - Chi Square Test
 - Anova Test
@@ -38,8 +38,10 @@ Fashion MNIST
 ### Loss Functions
 - Cross Entropy
 - Is there a better loss function? Can we add auxilary losses maybe?
-### Explainability
+
+## Explainability
 - Grad-CAM
+
 ## Implement SOTA
 If we have time
 
