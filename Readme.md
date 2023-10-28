@@ -11,8 +11,8 @@
 ## Feature Extraction
 1. Num Flatten Features = 784
 1. TODO: Handcrafted Features (HOG, SIFT, etc)
-1. Num Resnet18 Features = 1000
-1. Num Vit_b_16 Features = 1000
+1. Num Resnet18 Features = 512
+1. Num Vit_b_16 Features = 768
 
 ## Method
 ### EDA
