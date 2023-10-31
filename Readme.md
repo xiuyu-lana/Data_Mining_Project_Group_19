@@ -8,11 +8,16 @@
 - Num Val Samples = 5000
 - Num Testing Samples = 10000
 
-## Feature Extraction
+## Dataset Transformation
+### Feature Extraction
 1. Num Flatten Features = 784
 1. TODO: Handcrafted Features (HOG, SIFT, etc)
 1. Num Resnet18 Features = 512
-1. Num Vit_b_16 Features = 768
+1. Num Vit Features = 768
+### PCA
+1. Num Vit Features = 250
+### ANOVA Test
+1. Num Vit Features (90 percentile) = 
 
 ## Method
 ### EDA
@@ -23,9 +28,6 @@
 (Can be attempted later if best model is Overfitting)
 - Auto Augmentation
 - Handpicked (Random Horizontal Flip, Random Vertical Flip, Random Rotation, Random Resized Crop)
-### Dimensionality Reduction
-- Chi Square Test
-- PCA
 ### Models
 - Naive Bayes
 - Nearest Neighbor
