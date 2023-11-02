@@ -39,9 +39,17 @@
 - Few plots about data distribution
 - Few plots of image examples from each class
 
-## Models
-- Naive Bayes
+## Models (With Validation f1-score)
+- Gaussian Naive Bayes
+    - Flat
+    - HOG
+    - ResNet
+    - Vit = 0.80
 - Nearest Neighbor
+    - Flat
+    - HOG
+    - ResNet
+    - Vit = 0.87
 - Decision Trees
 - Linear Regression
 - Logistic Regression
