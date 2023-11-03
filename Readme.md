@@ -39,7 +39,7 @@
 - Few plots about data distribution
 - Few plots of image examples from each class
 
-## Models (With Validation f1-score)
+## Models (Reporting Validation f1-score with default hyperparameters)
 - Gaussian Naive Bayes
     - Flat
     - HOG
@@ -51,11 +51,35 @@
     - ResNet
     - Vit = 0.87
 - Decision Trees
-- Linear Regression
+    - Flat
+    - HOG
+    - ResNet
+    - Vit = 0.76
+- Random Forest
+    - Flat
+    - HOG
+    - ResNet
+    - Vit = 0.86
 - Logistic Regression
+    - Flat
+    - HOG
+    - ResNet
+    - Vit = 0.90
 - SVM
-- Dense Perceptron Layers
+    - Flat
+    - HOG
+    - ResNet
+    - Vit = 0.92
+- Feed Forward Network
+    - Flat
+    - HOG
+    - ResNet
+    - Vit = 
 - Transformer
+    - Flat
+    - HOG
+    - ResNet
+    - Vit = 
 
 ## Explainability
 - Grad-CAM
