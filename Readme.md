@@ -74,8 +74,8 @@
     - Flat
     - HOG
     - ResNet
-    - Vit = 
-- Transformer
+    - Vit = 0.91
+- Transformer (can try later if time permits)
     - Flat
     - HOG
     - ResNet
