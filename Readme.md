@@ -42,37 +42,37 @@
 ## Models (Reporting Validation f1-score with default hyperparameters)
 - Gaussian Naive Bayes
     - Flat
-    - HOG train=0.75, val=0.76, test=0.75 
+    - HOG = 0.76
     - ResNet
     - Vit = 0.80
 - Nearest Neighbor
     - Flat
-    - HOG (k=5) train=0.76, val=0.68, test=0.67 
+    - HOG = 0.68 (best_k = 5)
     - ResNet
     - Vit = 0.87
 - Decision Trees
     - Flat
-    - HOG  train=1.0, val=0.70, test=0.69 
+    - HOG = 0.70
     - ResNet
     - Vit = 0.76
 - Random Forest
     - Flat
-    - HOG  train=1.0, val=0.81, test=0.81 
+    - HOG = 0.81 
     - ResNet
     - Vit = 0.86
 - Logistic Regression
     - Flat
-    - HOG  train=0.83, val=0.83, test=0.82 
+    - HOG = 0.83 
     - ResNet
     - Vit = 0.90
 - SVM
     - Flat
-    - HOG  train=0.94, val=0.85, test=0.85 
+    - HOG = 0.85
     - ResNet
     - Vit = 0.92
 - Feed Forward Network
     - Flat
-    - HOG  train=, val=, test= 
+    - HOG = 0.84 (doesn't converge well)
     - ResNet
     - Vit = 0.91
 - Transformer (can try later if time permits)
