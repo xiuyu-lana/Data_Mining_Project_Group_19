@@ -20,14 +20,14 @@
 ## Dataset Transformation
 ### Feature Extraction
 1. Num Flatten Features = 784
-1. Num HOG Features =256
+1. Num HOG Features = 256
 1. Num Resnet18 Features = 512
 1. Num Vit Features = 768
 ### PCA (Atleast 95% of explained variance ratio)
 1. Num Flatten Features = 
 1. Num HOG Features = 104
-1. Num Resnet18 Features = 
-1. Num Vit Features = 250
+1. Num Resnet18 Features = 184
+1. Num Vit Features = 244
 ### ANOVA Test (To be done later because we dont know what percentile/number of features to select)
 1. Num Flatten Features = 
 1. Num HOG Features = 
@@ -43,38 +43,38 @@
 - Gaussian Naive Bayes
     - Flat
     - HOG = 0.76
-    - ResNet
+    - ResNet = 0.79
     - Vit = 0.80
 - Nearest Neighbor
     - Flat
     - HOG = 0.68 (best_k = 5)
-    - ResNet
-    - Vit = 0.87
+    - ResNet = 0.84 (best_k = 1)
+    - Vit = 0.86 (best_k = 1)
 - Decision Trees
     - Flat
     - HOG = 0.70
-    - ResNet
+    - ResNet = 0.74
     - Vit = 0.76
 - Random Forest
     - Flat
     - HOG = 0.81 
-    - ResNet
-    - Vit = 0.86
+    - ResNet = 0.86
+    - Vit = 0.87
 - Logistic Regression
     - Flat
     - HOG = 0.83 
-    - ResNet
+    - ResNet = 0.89
     - Vit = 0.90
 - SVM
     - Flat
     - HOG = 0.85
-    - ResNet
+    - ResNet = 0.91
     - Vit = 0.92
 - Feed Forward Network
     - Flat
     - HOG = 0.84 (doesn't converge well)
-    - ResNet
-    - Vit = 0.91
+    - ResNet = 0.89
+    - Vit = 0.90
 - Transformer (can try later if time permits)
     - Flat
     - HOG
