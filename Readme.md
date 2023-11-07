@@ -24,7 +24,7 @@
 1. Num Resnet18 Features = 512
 1. Num Vit Features = 768
 ### PCA (Atleast 95% of explained variance ratio)
-1. Num Flatten Features = 
+1. Num Flatten Features = 187
 1. Num HOG Features = 104
 1. Num Resnet18 Features = 184
 1. Num Vit Features = 244
@@ -41,37 +41,37 @@
 
 ## Models (Reporting Validation f1-score with default hyperparameters)
 - Gaussian Naive Bayes
-    - Flat
+    - Flat = 0.75
     - HOG = 0.76
     - ResNet = 0.79
     - Vit = 0.80
 - Nearest Neighbor
-    - Flat
+    - Flat = 0.75 (best_k = 1)
     - HOG = 0.68 (best_k = 5)
     - ResNet = 0.84 (best_k = 1)
     - Vit = 0.86 (best_k = 1)
 - Decision Trees
-    - Flat
+    - Flat = 0.77
     - HOG = 0.70
     - ResNet = 0.74
     - Vit = 0.76
 - Random Forest
-    - Flat
+    - Flat = 0.87
     - HOG = 0.81 
     - ResNet = 0.86
     - Vit = 0.87
 - Logistic Regression
-    - Flat
+    - Flat = 0.86
     - HOG = 0.83 
     - ResNet = 0.89
     - Vit = 0.90
 - SVM
-    - Flat
+    - Flat = 0.90
     - HOG = 0.85
     - ResNet = 0.91
     - Vit = 0.92
 - Feed Forward Network
-    - Flat
+    - Flat = 0.88
     - HOG = 0.84 (doesn't converge well)
     - ResNet = 0.89
     - Vit = 0.90
