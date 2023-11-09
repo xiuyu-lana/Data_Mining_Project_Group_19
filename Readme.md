@@ -72,7 +72,7 @@
     - Vit = 0.92
 - Feed Forward Network
     - Flat = 0.88
-    - HOG = 0.84 (doesn't converge well)
+    - HOG = 0.84
     - ResNet = 0.89
     - Vit = 0.90
 - Transformer (can try later if time permits)
