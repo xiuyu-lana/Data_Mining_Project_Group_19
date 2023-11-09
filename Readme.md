@@ -84,6 +84,13 @@
 ## Explainability
 - Grad-CAM
 - LIME
+  pip install LIME
+  import lime
+  import lime.lime_tabular
+  explainer = lime.lime_tabular.LimeTabularExplainer(training_data, feature_names=training_data.feature_names, class_names=true_class, verbose=True, mode='regression')
+  exp = explainer.explain_instance(data_instance, model.predict, num_features=5)
+  exp.show_in_notebook(show_table=True)
+  exp.as_list()
 
 ## Comparision
 - Write Submission Report
