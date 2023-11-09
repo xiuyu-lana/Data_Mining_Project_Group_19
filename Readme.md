@@ -83,7 +83,7 @@
 
 ## Explainability
 - Grad-CAM
-- LIME
+- LIME \
   pip install LIME \
   import lime  \
   import lime.lime_tabular \
