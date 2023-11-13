@@ -75,11 +75,6 @@
     - HOG = 0.84
     - ResNet = 0.89
     - Vit = 0.90
-- Transformer (can try later if time permits)
-    - Flat
-    - HOG
-    - ResNet
-    - Vit = 
 
 ## Explainability
 - Grad-CAM
