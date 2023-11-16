@@ -68,8 +68,13 @@
     - ResNet = 0.88
     - Vit = 0.90
 
+## Model Selection
+Vit + subset with 278 components + SVM
+
+## Hyperparameter Tuning
+
+
 ## Explainability
-- Grad-CAM
 - LIME
   \
   pip install LIME \
