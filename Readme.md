@@ -27,44 +27,44 @@
 ### 4. Components Sorted by ANOVA Test Scores 
 ### 5. Feature Subsets (0.85 evr to 0.98 evr with a delta of 0.01 evr)
 1. Num Flatten Components = [88, 97, 108, 119, 133, 149, 164, 184, 210, 242, 285, 328, 384]
-1. Num HOG Components = 
+1. Num HOG Components = [116, 121, 124, 128, 132, 137, 142, 146, 151, 156, 162, 177, 181]
 1. Num Resnet18 Components = [132, 142, 155, 167, 184, 198, 208, 231, 251, 273, 298, 328, 378]
 1. Num Vit Components = [114, 124, 136, 150, 168, 184, 198, 220, 244, 278, 317, 369, 425]
 
 ## Models (Reporting Validation f1-score with default hyperparameters)
 - Gaussian Naive Bayes
     - Flat = 0.69
-    - HOG = 
+    - HOG = 0.73
     - ResNet = 0.78
     - Vit = 0.82
 - Nearest Neighbor
     - Flat = 0.86
-    - HOG = 
+    - HOG = 0.70
     - ResNet = 0.85
     - Vit = 0.87
 - Decision Trees
     - Flat = 0.77
-    - HOG = 
+    - HOG = 0.71
     - ResNet = 0.74
     - Vit = 0.75
 - Random Forest
     - Flat = 0.87
-    - HOG =  
+    - HOG =  0.81
     - ResNet = 0.85
     - Vit = 0.86
 - Logistic Regression
     - Flat = 0.85
-    - HOG = 
+    - HOG = 0.84
     - ResNet = 0.88
     - Vit = 0.90
 - SVM
     - Flat = 0.89
-    - HOG = 
+    - HOG = 0.86
     - ResNet = 0.90
     - Vit = 0.92
 - Feed Forward Network
     - Flat = 0.85
-    - HOG = 
+    - HOG = 0.83
     - ResNet = 0.88
     - Vit = 0.90
 
