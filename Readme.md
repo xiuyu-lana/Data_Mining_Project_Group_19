@@ -103,15 +103,16 @@ Classification report:
               
 ## Explainability
 - LIME
-  \
-  pip install LIME \
-  import lime  \
-  import lime.lime_tabular \
-  explainer = lime.lime_tabular.LimeTabularExplainer(training_data, feature_names=training_data.feature_names, class_names=true_class, verbose=True, mode='regression') \
-  exp = explainer.explain_instance(data_instance, model.predict, num_features=5) \
-  exp.show_in_notebook(show_table=True) \
-  exp.as_list()
+  Given an input, identify the top important (influential) principal components.
+  
+- Reverse PCA
+  - Set all principal components to 0 except the identified important ones.
+  - Conduct reverse PCA to see how the important principal components distribute in the ViT features.
 
+- Reverse ViT feature extraction
+  - Decode the extracted ViT features back to the original image.
+  - The important principal components identified by LIME would highlight the pixel intensities (i.e., important image segments).
+  
 ## Comparision
 - Write Submission Report
 - Website/Blog
