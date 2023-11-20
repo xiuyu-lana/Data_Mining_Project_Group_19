@@ -97,10 +97,10 @@ Classification report:
      class 9       0.98      0.95      0.97      1000
 
     accuracy                           0.92     10000
-   macro avg       0.92      0.92      0.92     10000
-weighted avg       0.92      0.92      0.92     10000
+    macro avg       0.92      0.92      0.92     10000
+    weighted avg       0.92      0.92      0.92     10000
 
-              \
+              
 ## Explainability
 - LIME
   \
