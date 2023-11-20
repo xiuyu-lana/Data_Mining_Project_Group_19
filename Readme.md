@@ -79,11 +79,11 @@ Vit + subset with 278 components + SVM
   \
 During the hyperparameetr tuning, totally 24 models were trained (on the same 55000 samples) and validated (on the same 5000 samples). \
 According to the validation F1 score, the best hyperparameter setting is **(C = 25, kernel = 'rbf')**, with an F1 score of **0.929**.
-\
-\
+
 ## Test Performance of Our Final Model
 Classification report:
-precision    recall  f1-score   support
+
+                precision    recall  f1-score   support
 
      class 0       0.87      0.88      0.87      1000
      class 1       1.00      0.98      0.99      1000
@@ -99,6 +99,7 @@ precision    recall  f1-score   support
     accuracy                           0.92     10000
    macro avg       0.92      0.92      0.92     10000
 weighted avg       0.92      0.92      0.92     10000
+
 
 
 ## Explainability
