@@ -12,7 +12,7 @@
 - Num Validation Samples = 5000 (sklearn, random_state = 10, with stratification)
 - Num Testing Samples = 10000
 
-## EDA
+## Exploratory Data Analysis
 - Plots about data distribution
 - Image examples from each class
 
