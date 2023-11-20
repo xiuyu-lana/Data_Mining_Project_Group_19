@@ -103,7 +103,7 @@ Classification report:
               
 ## Explainability
 - LIME
-  Given an input, identify the top important (influential) principal components.
+  - Given an input, identify the top important (influential) principal components.
   
 - Reverse PCA
   - Set all principal components to 0 except the identified important ones.
