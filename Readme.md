@@ -76,6 +76,7 @@ Vit + subset with 278 components + SVM
 - Kernel: {'linear', 'poly', 'rbf', 'sigmoid'}
 - Degree (when kernel is 'poly'): {2, 3, 4} 
   \
+  \
 During the hyperparameetr tuning, totally 24 models were trained on the same 55000 samples and validated on the same 5000 samples. \
 According to the F1 score, the best hyperparameter settings are: 
 
