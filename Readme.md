@@ -1,4 +1,4 @@
-#FashionMNIST Classification
+<h1 style="text-align:center;">FashionMNIST Classification</h1>
 
 ## Abstract 
 We explored different methods to classify articles
