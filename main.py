@@ -59,7 +59,7 @@ batch_size = 32
 num_workers = 1
 print('- batch_size: ', batch_size)
 
-sample_batches = 10
+sample_batches = 15
 features = {}
 for key, value in data.items():
     print(f'\n- {key} Features...')
@@ -86,7 +86,7 @@ vit_features_save_path = './Data/Features/vit_b_16_features.pt'
 vit_features_download_link = 'https://drive.google.com/uc?id=1sIohZ2lmFQHAOCtJLGYQ7EKra5qImLEM'
 print('Downloading Features to', vit_features_save_path)
 print('From ', vit_features_download_link)
-gdown.download(vit_features_download_link, vit_save_path, quiet=True)
+gdown.download(vit_features_download_link, vit_features_save_path, quiet=True)
 
 print('\nLoading Downloaded Features')
 data = torch.load(vit_features_save_path)

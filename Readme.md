@@ -8,7 +8,7 @@ git clone https://github.com/TheBlackCat22/Survey_FashionMNIST
 2. Create python environment
 ```
 cd Survey_FashionMNIST
-conda env create -f environmnet.yml -y
+conda env create -f environment.yml
 ```
 3. Run main file for a demo of project pipeline and test scores
 ```
