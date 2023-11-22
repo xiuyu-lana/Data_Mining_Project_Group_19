@@ -1,4 +1,20 @@
-<h1 style="text-align:center;">ECEN 758 Project</h1>
+## Abstract 
+We explored different methods to classify articles
+of clothing in this project to find the best one. We used
+various feature extraction approaches and extracted four sets of
+feature vectors, including flattened, HOG (Histogram of Oriented
+Gradients), ResNet18, and ViT features. The datasets from Fash-
+ionMNIST are used to train and evaluate seven different models.
+We examined each feature extraction method and classification
+model combination and collected their f1-scores for the validation
+dataset. We also applied PCA and Anova tests to do the dimension
+reduction. The SVM with Vit features was selected because
+this combination owns the highest score. Then we tuned the
+two hyperparameters of SVM, i.e., C and kernel function, to
+get the best performance. The hyperparameter tuning used the
+training and validation datasets. Finally, the developed model was
+evaluated using the unseen testing data and reached a f1-score
+of 0.92.
 
 ## Setup
 1. Clone the repo
@@ -22,8 +38,6 @@ python main.py
 - [Pre-Extracted Vit Features](https://drive.google.com/uc?id=1sIohZ2lmFQHAOCtJLGYQ7EKra5qImLEM)  
 - [Best SVM Model](https://drive.google.com/uc?id=14GSFYMX0_PqGR2h_IR9v0C-06-_z3DSO)  
 
-## Abstract
-We explored different methods to classify articles of clothing in this project to find the best one. We used various feature extraction approaches and extracted four sets of feature vectors, including flattened, HOG (Histogram of Oriented Gradients), ResNet18, and ViT features. The datasets from Fash- ionMNIST are used to train and evaluate seven different models. We examined each feature extraction method and classification model combination and collected their f1-scores for the validation dataset. We also applied PCA and Anova tests to do the dimension reduction. The SVM with Vit features was selected because this combination owns the highest score. Then we tuned the two hyperparameters of SVM, i.e., C and kernel function, to get the best performance. The hyperparameter tuning used the training and validation datasets. Finally, the developed model was evaluated using the unseen testing data and reached a f1-score of 0.920.
 
 ## Dataset Description
 - Name = Fashion MNIST
