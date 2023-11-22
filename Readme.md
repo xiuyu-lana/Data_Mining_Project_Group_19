@@ -65,14 +65,17 @@ python main.py
 1. Num Vit Features = 768
 ### 2. Normalization
 ### 3. Full PCA
-### 4. Components Sorted by ANOVA Test Scores 
-### 5. Feature Subsets (0.85 evr to 0.98 evr with a delta of 0.01 evr)
+### 4. ANOVA Test
+Sort the principle components from the PCA according to the ANOVA test scores.
+### 5. Feature Subsets 
+0.85 evr to 0.98 evr with a delta of 0.01 evr.
 1. Num Flatten Components = [88, 97, 108, 119, 133, 149, 164, 184, 210, 242, 285, 328, 384]
 1. Num HOG Components = [116, 121, 124, 128, 132, 137, 142, 146, 151, 156, 162, 177, 181]
 1. Num Resnet18 Components = [132, 142, 155, 167, 184, 198, 208, 231, 251, 273, 298, 328, 378]
 1. Num Vit Components = [114, 124, 136, 150, 168, 184, 198, 220, 244, 278, 317, 369, 425]
 
-## Models (Reporting Validation f1-score with default hyperparameters)
+## Models 
+Reporting Validation f1-score with default hyperparameters
 - Gaussian Naive Bayes
     - Flat = 0.69
     - HOG = 0.73
@@ -112,7 +115,8 @@ python main.py
 ## Model Selection
 Vit + subset with 278 components + SVM
 
-## Hyperparameter Tuning of the SVM
+## Hyperparameter Tuning
+Tune the hyperparameters of the selected SVM model.
 - Regularization parameter C: {0.1, 1, 10, 25}
 - Kernel: {'linear', 'poly', 'rbf', 'sigmoid'}
 - Degree (when kernel is 'poly'): {2, 3, 4} 
@@ -121,7 +125,8 @@ Vit + subset with 278 components + SVM
 During the hyperparameetr tuning, totally 24 models were trained (on the same 55000 samples) and validated (on the same 5000 samples). \
 According to the validation F1 score, the best hyperparameter setting is **(C = 25, kernel = 'rbf')**, with an F1 score of **0.929**.
 
-## Test Performance of Our Final Model
+## Test Performance
+Evaluate the performance of our final model using the untouched testing dataset.
 Classification report:
 
                 precision    recall  f1-score   support
