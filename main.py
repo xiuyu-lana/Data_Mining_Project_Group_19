@@ -86,7 +86,7 @@ vit_features_save_path = './Data/Features/vit_b_16_features.pt'
 vit_features_download_link = 'https://drive.google.com/uc?id=1sIohZ2lmFQHAOCtJLGYQ7EKra5qImLEM'
 print('Downloading Features to', vit_features_save_path)
 print('From ', vit_features_download_link)
-# gdown.download(vit_features_download_link, vit_save_path, quiet=True)
+gdown.download(vit_features_download_link, vit_save_path, quiet=True)
 
 print('\nLoading Downloaded Features')
 data = torch.load(vit_features_save_path)
@@ -194,9 +194,6 @@ gdown.download(svm_download_link, svm_save_path, quiet=True)
 print('\nLoading Trained SVM')
 svm_clf = torch.load(svm_save_path)
 print(f'- Hyperparameters of Trained SVM: ', svm_clf.get_params())
-
-# print('\n- Training Report')
-# print(classification_report(data['train'][1], svm_clf.predict(data['train'][0])))
 
 print('\nValidation Report')
 print(classification_report(data['val'][1], svm_clf.predict(data['val'][0])))
