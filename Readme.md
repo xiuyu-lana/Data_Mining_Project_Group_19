@@ -1,3 +1,5 @@
+#FashionMNIST Classification
+
 ## Abstract 
 We explored different methods to classify articles
 of clothing in this project to find the best one. We used
