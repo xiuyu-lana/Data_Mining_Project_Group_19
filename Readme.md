@@ -5,7 +5,7 @@
 ```
 git clone https://github.com/TheBlackCat22/Survey_FashionMNIST 
 ```
-2. Create python environment
+2. Create python environment (linux Only)
 ```
 cd Survey_FashionMNIST
 conda env create -f environment.yml
