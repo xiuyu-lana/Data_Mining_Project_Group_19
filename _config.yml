@@ -1,3 +1,4 @@
 title: FashionMNIST Classification
 description: A Group Project for ECEN758 Data Mining Class
-theme: jekyll-theme-architect
+show_downloads: true
+theme: jekyll-theme-leap-day
